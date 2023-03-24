@@ -1,0 +1,1 @@
+Get-CimInstance -ClassName win32_bios | Select-Object -Expand SMBIOSBIOSVersion
